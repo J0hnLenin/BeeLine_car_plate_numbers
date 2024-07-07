@@ -39,7 +39,6 @@ def predicts(INPUT_FOLDER_PATH):
         ########################
 
         img = cv2.resize(img, (512,112))
-        contours = cv2.resize(contours, (512,112))
 
         for region_type in regions_type:
 
